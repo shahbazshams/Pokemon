@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white ;
+}
+
+body{
+    opacity: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* start header */
+
+.header{
+    background-color: rgb(210, 202, 202);
+    /* background-image: linear-gradient(12, 13, 22); */
+    border: 1px solid #000;
+    width: 87%;
+    height: 70px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #000;
+    line-height: 60px;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
+    /* color: -webkit-link; */
+    cursor: pointer;
+    /* text-decoration: underline; */
+    
+}
+
+.nav-bar .min{
+    /* background-color: #f0f8ff; */
+    border: 1px solid #000;
+    padding: 15px;
+    width: 87%;
+    height: 100px;
+    margin: 0px auto;
+    line-height: 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #000;
+    display: flex;
+}
+
+.min li a svg{
+    width: 50px;
+    height: 30px;
+   text-align: center; 
+   color: #9b9494;
+}
+
+.min li, a{
+    /* background-color: #fefefe; */
+    list-style: none;
+    color: #000;
+    align-content: space-around;
+
+}
+
+.min li a, .text{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    width: 130px;
+    font-size: 18px;
+    /* justify-content: space-around; */
+    /* text-align: left; */
+
+}
+/* navegation end */
+
+/* container start */
+
+.container{
+    border: 1px solid #000;
+    width: 86%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* silader start */
+
+.silader{
+    border: 1px solid #000;
+    width: 63%;
+    /* height: 91vh; */
+    border-radius: 10px;
+    box-shadow: 2px -2px 5px #000;
+    margin: 5px;
+    background-color: #fefefe;
+
+}
+
+.silader .sil-1{
+    width: 100%;
+    height: ;
+    border-radius: 10px;
+    box-shadow: 2px -2px 5px #000;
+    float: right;
+}
+
+.silader .sil-1 a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.sil-1 a img{
+    /* margin: 5px 5px 0px; */
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.silader .sil-1 .text2 {
+    border-radius: 0px 0px 10px 10px;
+    /* box-shadow: 2px -2px 5px #000; */
+    background-color: #ff6348;
+
+}
+
+.sil-1 > .text2, h3, p {
+    /* padding: 0px 5px; */
+    justify-content: center;
+    background-color: #ff6348;
+    /* margin: 0px 6px 0px; */
+    
+}
+
+p{
+    border-radius: 0px 0px 10px 10px;
+    /* box-shadow: 2px -2px 5px #000; */
+}
+
+/* start silader sil-2 */
+
+.silader .sil-2 {
+    width: 47%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px -2px 5px #000;
+    /* padding: 5px; */
+    /* margin-top: 20px;
+    margin-bottom: 10px; */
+
+}
+
+.sil-2 .si2 a {
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 2px -2px 5px #000;
+    color: #000;
+}
+
+.sil-2 .si2 a img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px -2px 5px #000;
+}
+
+
+.si2 a img .text3 > h3{
+    /* color: #000; */
+    width: 100%;
+    /* border-radius: 10px;
+    box-shadow: 2px -2px 5px #000; */
+}
+
+.si2 .text3 h3{
+    background-color: #411ee1;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px -2px 5px #000;
+    color: #fff;
+    /* margin-bottom: 10px; */
+}
+/* si2 end */
+
+/* start si3 */
+
+.silader .sil-2 {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px -2px 5px #000;
+    /* padding: 5px; */
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.sil-2 .si3 a {
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 2px -2px 5px #000;
+    color: #000;
+    
+}
+
+
+
+.sil-2 .si3 a img{
+    
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px -2px 5px #000;
+}
+
+
+.si3 a img .text3 > h3{
+    /* color: #000; */
+    width: 100%;
+    /* border-radius: 10px;
+    box-shadow: 2px -2px 5px #000; */
+}
+
+.si3 .text3 h3{
+    background-color: #808680;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px -2px 5px #000;
+    color: #fff;
+}
+
+/* silder end */
+
+/* start silader */
+
+.sidbar{
+    width: 35%;
+    height: auto;
+    border: 1px solid #000;
+    /* margin: px; */
+    padding: 15px;
+    border-radius: 10px;
+    /* background-color: red; */
+    box-shadow: 2px 2px 5px 3px #000;
+}
+
+/* sid1 start */
+
+.sidbar .sid1{
+    width: 96%;
+    height: 272px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.sidbar .sid1 > a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(36, 29, 29);
+    background-color: aqua;
+}
+
+.sidbar .sid1 a > .img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sid1 a > h2, p{
+    background-color: #495150d2;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+
+/* sid1 end */
+
+/* sid2 start */
+
+.sidbar .sid2{
+    width: 96%;
+    height: 282px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sidbar .sid2 > a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(36, 29, 29);
+}
+
+.sidbar .sid2 a > .img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.sid2 a > h3, p{
+    background-color: #3e3e3e;
+}
+
+/* sid3 start */
+
+.sidbar .sid3{
+    width: 96%;
+    height: 203px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sidbar .sid3 > a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(36, 29, 29);
+}
+
+.sidbar .sid3 a > .image{
+    width: 40%;
+    height: 200px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.sid3 a > h3, p{
+    background-color: #3e3e3e;
+}
